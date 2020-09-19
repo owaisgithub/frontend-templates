@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Myshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="main.html">MyShop</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="main.html">Store <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <div class="dropdown">
+            <a type="button" class="btn text-white dropdown-toggle" data-toggle="dropdown">Products</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Mobile</a>
+                <a class="dropdown-item" href="#">Mobile</a>
+                <a class="dropdown-item" href="#">Mobile</a>
+                <a class="dropdown-item" href="#">Mobile</a>
+                <a class="dropdown-item" href="#">Mobile</a>
+                <a class="dropdown-item" href="#">Mobile</a>
+            </div>
+        </div>
+      </li>
+    </ul>
+    <div class="form-inline my-2 my-lg-0">
+        <a href="register.html"class="btn btn-warning">Register</a>
+        <a href="login.html"class="btn btn-warning">Login</a>
+
+        <a href="cart.html">
+            <img  id="cart-icon" src="images/cart.png">
+        </a>
+        <p id="cart-total">7</p>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/shoes.jpg">
+            <div class="box-element product">
+                <h6><strong>Shoes</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$65.49</strong></h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/book.jpg">
+            <div class="box-element product">
+                <h6><strong>Mount of Olives Book</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$14.43</strong></h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/watch.jpg">
+            <div class="box-element product">
+                <h6><strong>Watch</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$224</strong></h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/shirt.jpg">
+            <div class="box-element product">
+                <h6><strong>T-Shirt</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$23.49</strong></h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/sourcecode.jpg">
+            <div class="box-element product">
+                <h6><strong>Project Source Code</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$19.99</strong></h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="images/headphones.jpg">
+            <div class="box-element product">
+                <h6><strong>Headphones</strong></h6>
+                <hr>
+
+                <button class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="display: inline-block; float: right"><strong>$145.99</strong></h4>
+            </div>
+
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: darkgray">
+    <p>Footer</p>
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
